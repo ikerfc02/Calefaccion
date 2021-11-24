@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Calefaccion
+comment1.params=calefaccionEncendida\ tempMax\ termostatoCalefaccion
+comment1.target=Calefaccion(boolean,\ int,\ Termostato)
+numComments=2
