@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Termostato
+comment1.params=temperaturaAhora\ temperaturaInicio
+comment1.target=Termostato(int,\ int)
+numComments=2
