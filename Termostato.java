@@ -11,4 +11,20 @@ public class Termostato{
     }
     
     
+    public int getTempActual(){
+        return temperaturaActual;
+    }
+    
+    public int getTempArranque(){
+        return temperaturaArranque;
+    }
+    
+    public void setTemperaturaAhora(int temperatura){
+        temperatura = temperaturaActual;
+    }
+    
+    public void setArranque(int tempArranque){
+        tempArranque = temperaturaArranque;
+    }
+    
 }
