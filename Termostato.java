@@ -27,4 +27,8 @@ public class Termostato{
         tempArranque = temperaturaArranque;
     }
     
+    public void imprimirDetalles(){
+        System.out.println("Temperatura actual: "+ temperaturaActual+ " - Temperatura para que arranque: "+ temperaturaArranque);
+    }
+    
 }
