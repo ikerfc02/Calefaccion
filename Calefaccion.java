@@ -38,4 +38,7 @@ public class Calefaccion {
         return termostato;
     }
 
+    public void imprimirDetalles(){
+        System.out.println("Encendido: " + encendido + ". Temperatura máxima: " + temperaturaMaxima + ". Temperatura actual: " + termostato.getTempActual() + ". Temperatura arranque del termostato: " + termostato.getTempArranque());
+    }
 }
