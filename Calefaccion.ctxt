@@ -2,4 +2,16 @@
 comment0.target=Calefaccion
 comment1.params=calefaccionEncendida\ tempMax\ termostatoCalefaccion
 comment1.target=Calefaccion(boolean,\ int,\ Termostato)
-numComments=2
+comment2.params=calefaccionEncendida
+comment2.target=void\ setEncendido(boolean)
+comment3.params=tempMax
+comment3.target=void\ setTemperaturaMaxima(int)
+comment4.params=termostatoCalefaccion
+comment4.target=void\ setTermostato(Termostato)
+comment5.params=
+comment5.target=boolean\ getEncendido()
+comment6.params=
+comment6.target=int\ getTemperaturaMaxima()
+comment7.params=
+comment7.target=Termostato\ getTermostato()
+numComments=8
